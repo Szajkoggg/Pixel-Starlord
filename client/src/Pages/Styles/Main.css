@@ -1,0 +1,26 @@
+.main {
+  position: absolute;
+  top: 70px;
+  justify-content: center;
+  width: 100%;
+}
+
+.main .planet {
+  position: absolute;
+  z-index: -10;
+  width: 100%;
+}
+
+.main .every-monsters-container {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.main .every-monsters-container .friendly-monsters-container .monster-card {
+  background-color: rgb(186, 230, 230);
+}
+
+.main .every-monsters-container .enemy-monsters-container .monster-card {
+  background-color: brown;
+}

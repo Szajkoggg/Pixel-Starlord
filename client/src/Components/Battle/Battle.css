@@ -1,0 +1,17 @@
+.battleground {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.battleground .player1 {
+  margin: auto;
+}
+
+.battleground .player2 {
+  margin: auto;
+}
+
+.battleground .every-monsters-container {
+  width: 100%;
+}

@@ -1,0 +1,16 @@
+.monster-card {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+.monster-card .monster-image {
+  width: 50%;
+}
+
+.monster-card .stat-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
